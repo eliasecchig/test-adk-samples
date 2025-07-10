@@ -20,7 +20,6 @@ example_question: "A report on the latest Google I/O event"
 settings:
   deployment_targets: ["agent_engine", "cloud_run"]
   tags: ["adk"]
-  frontend_type: "adk_gemini_fullstack"
   commands:
     override:
       install: "uv sync --dev --extra jupyter && npm --prefix frontend install"
